@@ -17,10 +17,16 @@ Después abre http://localhost:8080. Detén el servidor con Ctrl+C.
 ## Recorrido para la presentación
 
 1. Cambia entre vista frontal, lateral y trasera.
-2. Selecciona los puntos numerados o utiliza el desplegable. El panel explica función, justificación de diseño e implicación ética de 16 componentes. Al elegir un componente que no aparece en la vista actual, cambia a una vista donde es visible.
+2. Selecciona los puntos numerados o utiliza el desplegable. El panel explica función, justificación de diseño e implicación ética de 17 componentes. Al elegir un componente que no aparece en la vista actual, cambia a una vista donde es visible.
 3. Activa **Modo privacidad**: cierra visualmente el obturador y apaga los indicadores de cámara y micrófonos. No se permite iniciar la detección visual de caídas mientras está activo. Los sensores de distancia, fuerza y contacto permanecen disponibles en el concepto.
 4. Desactiva privacidad y pulsa **Simular detección de caída**. Tras 1,6 segundos pregunta al usuario. Puedes pulsar **Estoy bien** para terminar sin aviso; tras 8 segundos sin respuesta pasa al protocolo y 2,2 segundos después muestra el contacto simulado. Los tiempos están comprimidos para la presentación y no constituyen criterios de seguridad. **Reiniciar** cancela todos los temporizadores. Activar privacidad también cancela esta demostración: no representa una política final para emergencias reales.
 5. Revisa **¿Cómo funciona CompanIA?**: sensores → percepción → lenguaje y planificación → motor de decisión y reglas de seguridad → control → actuadores. ROS comunica los componentes. La seguridad crítica requiere mecanismos independientes del modelo de lenguaje.
+
+## Diseño y materiales
+
+Las tres vistas comparten la misma geometría de cabeza, torso, brazos y base. La carcasa marfil mate contrasta con el acolchado de tono piedra y microtextura sellada: hombros, brazos, antebrazos, laterales y frontal del torso y defensa perimetral. Las juntas quedan cubiertas; se mantienen la limitación mecánica de fuerza, los sensores y el modo seguro conceptual. Las manos conservan tres dedos robóticos con puntas blandas. El apoyo corporal requiere validación física; el acolchado no acredita capacidad de carga.
+
+La pantalla utiliza dos marcas neutras de atención, un anillo de procesamiento, una onda de escucha y un símbolo de alerta. Cambia durante la simulación y muestra un candado en modo privacidad, sin expresiones emocionales. El punto 17 explica las superficies de contacto.
 
 ## Archivos
 
